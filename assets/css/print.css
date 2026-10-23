@@ -1,0 +1,16 @@
+#folio {
+  margin-left: 0px;
+  width: 100%px;
+}
+#botonimprimir {
+  display: none;
+}
+#map_canvas {
+  display: block;
+}
+.btn-warning,
+.alert-info,
+.btn-danger,
+.btn-primary {
+  display: none;
+}

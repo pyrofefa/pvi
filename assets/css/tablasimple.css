@@ -1,0 +1,30 @@
+html{
+
+}
+
+table *{
+font-size: 11px;
+font-family: Calibri;
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+table{
+	width: 100%;
+}
+
+table th{
+background-color: #DDD;
+}
+
+td{
+	border-collapse: collapse;
+
+}
+
+table tr:nth-child(even){
+ background-color: #EAEAEA;
+}
+table tr:nth-child(odd){
+ background-color: transparent;
+}

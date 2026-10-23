@@ -1,0 +1,11 @@
+/* 
+    Document   : custom
+    Created on : 13/05/2014, 12:18:49 PM
+    Author     : Javy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body,li,a,th{
+    font-size:16px !important;
+}

@@ -1,0 +1,22 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+$config['sitio_short'] = "PVI Facturación";
+$config['sitio_long'] = "CESAVE";
+$config['sitio_desc'] = "Punto de verificación interna.";
+$config['sitio_url'] = "facturacion.php";
+$config['sitio_id'] = 27;
+$config['sitio_logo'] = "logo.png";
+$config['db_sistema'] = "siafeson_siafeson";
+$config['db_sitio'] = "siafeson_simcros";
+$config['tbl_sqlite_capturas'] = "registros";
+$config['tbl_mysql_capturas'] = $config['db_sitio'] . ".muestreo";
+$config['tbl_usuarios'] = $config['db_sistema'] . ".user";
+$config['tbl_personas'] = $config['db_sistema'] . ".persona";
+$config['tbl_juntas'] = $config['db_sistema'] . ".juntas";
+$config['tbl_grupos'] = $config['db_sistema'] . ".groups";
+$config['tbl_imeis'] = $config['db_sistema'] . ".imeis";
+$config['tbl_rel_user_imei'] = $config['db_sistema'] . ".rel_user_imei";
+$config['tbl_users_groups'] = $config['db_sitio'] . ".users_groups";
+$config['tbl_motivos'] = $config['db_sistema'] . ".catMotivosweb";
+$config['sitio_by'] = "PVI by SIAFESON";
+$config['table_style'] = array ('table_open'=>'<table class="table table-bordered table-striped table-condensed flip-content">','table_close'=>'</table>');

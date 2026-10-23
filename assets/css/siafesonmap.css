@@ -1,0 +1,104 @@
+div.divMapa{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	border: none;
+}
+input.quitaPonNivel{
+	margin: 2px 2px 4px 2px;
+}
+.niv_w{
+	background-color: #000000;
+	color: #FFF;
+}
+.niv_dg, .niv_Negativos, .niv_1{
+	color: #006600;
+}
+.niv_g{
+	color: #00FF00;
+}
+
+.niv_2, .niv_y{
+	background-color: #FFFF00;
+	color: #888;
+}
+.niv_dy{
+	color: #ffea00;
+}
+.niv_3, .niv_o{
+	color: #FF6600;
+}
+.niv_4, .niv_r, .niv_Positivos{
+	color: #FF0000;
+}
+.niv_4, .niv_r{
+	color: #FF0000;
+}
+.niv_b, .niv_5{
+	color: #0000FF;
+}
+.niv_c{
+	color: #00FFFF;
+}
+.niv_w{
+	color: #FFFFFF;
+}
+.niv_black{
+	color: #000000;
+}
+.niv_o{
+	color: #FF6600;
+}
+.niv_do{
+	color: #FF4500;
+}
+.niv_lo{
+	color: #FFA500;
+}
+.niv_dr{
+	color: #CC0000;
+}
+.niv_dc{
+	color: #008B8B;
+}
+.niv_dgray{
+	color: #A9A9A9;
+}
+.niv_limon{
+	color: #ADFF2F;
+}
+.niv_gray{
+	color: #E6E6FA;
+}
+.niv_m{
+	color: #FF00FF;
+}
+
+
+#niveles-control hr{
+padding:0 0 0 0 !important;
+margin: 0 0 0 0 !important;
+}
+
+.info, .success, .warning, .error, .validation {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+}
+.success {
+color: #4F8A10;
+background-color: #DFF2BF;
+}
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+}
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+}

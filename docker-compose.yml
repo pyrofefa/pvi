@@ -1,0 +1,31 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    # Ubuntu 14.04 / PHP 5 y MySQL 5.6 solo existen bien para amd64 (en Mac M1/M2 corre con emulación)
+    platform: linux/amd64
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    environment:
+      DB_HOST: db
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.6
+    platform: linux/amd64
+    ports:
+      - "3307:3306"
+    environment:
+      # Igual que el grupo 'localhost' de sitios/*/config/database.php (root sin contraseña)
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./bd/pvi.sql:/seed/pvi.sql:ro
+      - ./docker/mysql-init:/docker-entrypoint-initdb.d:ro
+
+volumes:
+  db_data:

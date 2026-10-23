@@ -1,0 +1,23 @@
+/* here you can put your own css to customize and override the theme */
+
+.center{
+    text-align: center !important;
+}
+
+table.table-centrada thead tr th,table.table-centrada tbody tr td,table.table-centrada tr th{
+    text-align: center !important;
+}
+
+table.floatThead-table thead th{
+    background-color: #f4f4f4 !important;
+    -moz-background: #f4f4f4 !important;
+}
+
+table.floatThead-table{
+    width: 100% !Important;
+    margin:0 !important;
+}
+
+.scroller{
+    overflow-x: scroll !important;
+}

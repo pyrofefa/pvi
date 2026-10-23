@@ -1,0 +1,41 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Subversion (el proyecto venía de SVN)
+.svn/
+
+# Base de datos local: backup .sql y archivos crudos de MySQL (datos reales, y pvi.sql pesa >100 MB)
+bd/
+
+# Logs de CodeIgniter de cada sitio
+sitios/*/logs/*
+!sitios/*/logs/index.html
+
+# Respaldos mensuales de tickets que genera la app (datos reales); se conserva la carpeta
+sitios/tickets/backup/*
+!sitios/tickets/backup/.gitkeep

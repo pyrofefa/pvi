@@ -1,0 +1,41 @@
+/*ul.buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+}
+
+ul.buttons li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+ 
+ul.buttons li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+}
+
+*/
+
+#divPrecios ul.precios{
+    /*background-color: red;*/
+    list-style-type: none;
+    /*margin: 0 10;*/
+    /*padding: 0;*/
+
+}
+
+#divPrecios ul.precios li{
+    /*background-color: red;*/
+    float: left;
+    text-align: center;
+}
+
+.btn-precios{
+    height: 100px;
+}
