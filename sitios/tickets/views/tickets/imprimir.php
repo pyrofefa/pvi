@@ -151,12 +151,14 @@ b.url-fact{
                 <td colspan='2' style='text-align:center;'><br>
                 <!-- <em style='font-size:10px;'>Podr&aacute; solicitar su factura en 24 horas con su c&oacute;digo de<br>requisici&oacute;n en <b>www.cosafisc.com/facturas/</b></em> -->
                 <em style='font-size:8px;'>Podr&aacute; solicitar su factura en 24 horas con su c&oacute;digo de<br>requisici&oacute;n en <br><b class='url-fact'>https://facturacionpvi.siafeson.org.mx/facturacion.php/</b></em>
+                <br><em style='font-size:8px;'>Tel&eacute;fono: <b class='url-fact'>662 213 3284</b></em>
                 </td></tr>
           <?php  }elseif($empresa_id == 1){ ?>
                 <tr align='center'>
                 <td colspan='2' style='text-align:center;'><br>
                 <!-- <em style='font-size:10px;'>Podr&aacute; solicitar su factura en 24 horas con su c&oacute;digo de<br>requisici&oacute;n en <b class='url-fact'>www.cesaveson.com/facturas/</b></em> -->
                 <em style='font-size:8px;'>Podr&aacute; solicitar su factura en 24 horas con su c&oacute;digo de<br>requisici&oacute;n en <br><b class='url-fact'>https://facturacionpvi.siafeson.org.mx/facturacion.php/</b></em>
+                <br><em style='font-size:8px;'>Tel&eacute;fono: <b class='url-fact'>662 168 0522</b></em>
                 </td></tr>
           <?php  } ?>
         </table>
